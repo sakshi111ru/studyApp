@@ -9,6 +9,7 @@ class SubjectCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
        margin: EdgeInsets.all(16),
+       color: Theme.of(context).colorScheme.surface,
        child: Container(
          width:double.infinity,
          padding: EdgeInsets.all(16),
